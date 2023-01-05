@@ -1,0 +1,104 @@
+* {background-color: #222}
+
+.App {
+font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 300;
+  /*background-color: #aaaaaa;*/
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  color: #FCFBF4;
+font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 2vw;
+  font-color: #FCFBF4;
+}
+
+.topping {
+  margin-top: 0.3rem;
+  vertical-align: text-bottom;
+}
+
+.result {
+  margin-top: 1rem;
+}
+
+.entries-list {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 24px;
+  //color: #FCFBF4;
+  color:#FFFFFF;
+  input.custom {
+  caret-color: #FCFBF4;
+}
+}
+
+.entries-list {
+  list-style: none;
+  padding: 0;
+  font-size: 24px;
+  //color: #FCFBF4;
+  color:#ffffff;
+  input.custom {
+  caret-color: #FCFBF4;
+}
+}
+
+.entries-list li {
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  color: #FCFBF4;
+}
+
+.entries-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.entries-list li:last-child {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: 24px;
+}
+
+.entries-list-item label {
+  vertical-align: text-bottom;
+  margin-left: 0.2rem;
+  font-size: 24px;
+}
+
+input.custom {
+  caret-color: #FCFBF4;
+  font: 16px "Helvetica", "Arial", "sans-serif";
+  color: #FCFBF4;
+  background-color: #626260;
+  border-radius: 10px;
+  border-width: 0px;
+  text-indent: 6px;
+}
+
+.react-switch {
+
+transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+animation-name: reverse;
+animation-duration: 350ms;
+animation-fill-mode: forwards;
+transition: all 350ms ease-in;
+shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+
+@media screen and (max-width: 600px) {
+  .entries-list,
+  .total {
+    width: 90%;
+    background-color: #222;
+  }
+}
